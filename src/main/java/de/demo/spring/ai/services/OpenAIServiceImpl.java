@@ -1,4 +1,4 @@
-package de.liparulo.ai.rag.services;
+package de.demo.spring.ai.services;
 
 import org.springframework.ai.chat.ChatClient;
 import org.springframework.ai.chat.ChatResponse;
@@ -7,8 +7,8 @@ import org.springframework.ai.chat.prompt.PromptTemplate;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import de.liparulo.ai.rag.model.Answer;
-import de.liparulo.ai.rag.model.Question;
+import de.demo.spring.ai.model.Answer;
+import de.demo.spring.ai.model.Question;
 import lombok.RequiredArgsConstructor;
 
 @Service(value="simpleOpenAIservice")

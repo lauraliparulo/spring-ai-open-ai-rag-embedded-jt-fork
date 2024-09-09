@@ -1,4 +1,4 @@
-package de.liparulo.ai.rag.services;
+package de.demo.spring.ai.services;
 
 import java.util.List;
 import java.util.Map;
@@ -14,8 +14,8 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.core.io.Resource;
 import org.springframework.stereotype.Service;
 
-import de.liparulo.ai.rag.model.Answer;
-import de.liparulo.ai.rag.model.Question;
+import de.demo.spring.ai.model.Answer;
+import de.demo.spring.ai.model.Question;
 import lombok.RequiredArgsConstructor;
 
 @RequiredArgsConstructor

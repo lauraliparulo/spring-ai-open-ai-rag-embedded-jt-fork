@@ -1,4 +1,4 @@
-package de.liparulo.ai.rag.config;
+package de.demo.spring.ai.config;
 
 import java.io.File;
 import java.util.List;

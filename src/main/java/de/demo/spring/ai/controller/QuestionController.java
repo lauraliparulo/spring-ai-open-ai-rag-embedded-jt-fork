@@ -1,4 +1,4 @@
-package de.liparulo.ai.rag.controller;
+package de.demo.spring.ai.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
@@ -6,9 +6,9 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
-import de.liparulo.ai.rag.model.Answer;
-import de.liparulo.ai.rag.model.Question;
-import de.liparulo.ai.rag.services.OpenAIService;
+import de.demo.spring.ai.model.Answer;
+import de.demo.spring.ai.model.Question;
+import de.demo.spring.ai.services.OpenAIService;
 import lombok.RequiredArgsConstructor;
 
 @RestController

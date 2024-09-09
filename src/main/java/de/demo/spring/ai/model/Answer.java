@@ -1,4 +1,4 @@
-package de.liparulo.ai.rag.model;
+package de.demo.spring.ai.model;
 
 public record Answer(String answer) {
 

@@ -1,4 +1,4 @@
-package de.liparulo.ai.rag;
+package de.demo.spring.ai;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
