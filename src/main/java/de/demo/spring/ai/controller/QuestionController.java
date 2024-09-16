@@ -31,6 +31,10 @@ public class QuestionController {
 	
 	/**
 	 * Example "   "question": "what is the movie Spider-Man: No Way home about?"" will work, but just using "Spider-Man" no
+    // "What is the best XMen Marvel movie to see?"
+    // "question": "What is the best movie with Hugh Jackman?"
+    // "has Tom Cruise been successful since 2012?"
+    // "question": "has Harrison Ford been more successful than Tom Cruise since 2012?"
 	 * **/
 	@PostMapping("/vector-store-ask")
 	public Answer askQuestionVectorStore(@RequestBody Question question) {
