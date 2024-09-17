@@ -16,7 +16,7 @@
 	<description>spring-ai-rag-embedded</description>
 	<properties>
 		<java.version>21</java.version>
-		<spring-ai.version>0.8.1</spring-ai.version>
+		<spring-ai.version>1.0.0-SNAPSHOT</spring-ai.version>
 		<lombok-version>1.18.12</lombok-version>
 	</properties>
 	<dependencies>
