@@ -7,7 +7,8 @@ spring:
       api-key: ${OPENAI_API_KEY}
 sfg:
   aiapp:
-    vectorStorePath: /tmp/vectorstore.json
+#    vectorStorePath: /tmp/vectorstore.json
+    vectorStorePath: movie-vector-store.json
     documentsToLoad:
       - classpath:/movies500.csv
       - https://editorial.rottentomatoes.com/guide/best-new-movies/

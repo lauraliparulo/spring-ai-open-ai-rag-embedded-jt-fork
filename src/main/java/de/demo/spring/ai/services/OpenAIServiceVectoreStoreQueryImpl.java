@@ -16,16 +16,23 @@ import org.springframework.stereotype.Service;
 
 import de.demo.spring.ai.model.Answer;
 import de.demo.spring.ai.model.Question;
-import lombok.RequiredArgsConstructor;
+//import lombok.RequiredArgsConstructor;
 
-@RequiredArgsConstructor
+//@RequiredArgsConstructor
 @Service(value="vectorStoreOpenAIService")
 public class OpenAIServiceVectoreStoreQueryImpl implements OpenAIService {
 
    final ChatModel chatModel;
    final SimpleVectorStore vectorStore;
 
-   //@Value("classpath:/templates/rag-prompt-template.st")
+
+ 
+   public OpenAIServiceVectoreStoreQueryImpl(ChatModel chatModel, SimpleVectorStore vectorStore) {
+	this.chatModel = chatModel;
+	this.vectorStore = vectorStore;
+}
+
+//@Value("classpath:/templates/rag-prompt-template.st")
    @Value("classpath:/templates/rag-prompt-template-meta.st")
    private Resource ragPromptTemplate;
 
