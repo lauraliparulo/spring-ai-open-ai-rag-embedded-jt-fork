@@ -36,7 +36,7 @@ public class QuestionController {
     // "has Tom Cruise been successful since 2012?"
     // "question": "has Harrison Ford been more successful than Tom Cruise since 2012?"
 	 * **/
-	@PostMapping("/vector-store-ask")
+	@PostMapping("/movie")
 	public Answer askQuestionVectorStore(@RequestBody Question question) {
 		return openAIServiceVectoreStoreQueryImpl.getAnswer(question);
 	}

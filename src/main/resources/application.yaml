@@ -4,9 +4,11 @@ spring:
 #Pass API key as environment variable, e.g. -DOPENAI_API_KEY=your-api-key
   ai:
     openai:
-      api-key: ${OPEN_AI_API_KEY}
+      api-key: ${OPENAI_API_KEY}
 sfg:
   aiapp:
     vectorStorePath: /tmp/vectorstore.json
     documentsToLoad:
       - classpath:/movies500.csv
+      - https://editorial.rottentomatoes.com/guide/best-new-movies/
+      - https://www.forbes.com/sites/entertainment/article/greatest-actors-of-all-time/
